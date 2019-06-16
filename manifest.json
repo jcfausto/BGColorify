@@ -2,5 +2,10 @@
     "name": "BGColorify",
     "version": "1.0",
     "description": "Change web pages background color with 1 click",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
 }
