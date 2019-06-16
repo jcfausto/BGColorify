@@ -4,4 +4,4 @@ let changeColor = document.getElementById('changeColor');
 let color = Math.floor(Math.random() * 16777215).toString(16);
 
 changeColor.style.backgroundColor = `#${color}`;
-changeColor.setAttribute('value', `${color}`);
+changeColor.setAttribute('value', `#${color}`);
