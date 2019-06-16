@@ -3,7 +3,7 @@
     "version": "1.0",
     "description": "Change web pages background color with 1 click",
     "manifest_version": 2,
-    "permissions": ["storage", "activeTab"],
+    "permissions": ["activeTab", "storage"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
